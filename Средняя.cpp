@@ -22,7 +22,7 @@ int main() {
 	setlocale (LC_ALL,"Russian");
 	int n,m;
 	do {
-		cout<<"Ââåäèòå ðàçìåð ìàññèâà:";
+		cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°:";
 		cin>>n>>m;
 	} while (n<=0 || m<=0);
 	int **a = new int *[n];
